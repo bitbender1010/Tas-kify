@@ -4,10 +4,9 @@ body {
 
 .container {
     border: 1px solid black;
-    min-height: 90vh;
+    min-height: 70vh;
     width: 20%;
-    margin: 2% 40%;
-    position: relative;
+    margin: 10px 40% 0px 40%;
     background: white;
     box-shadow: 15px 15px 15px gray;
 }
@@ -16,7 +15,7 @@ body {
     background: blue;
     color: white;
     font-family: cursive;
-    font-size: 40px;
+    font-size: 50px;
     text-align: center;
     width: 100%;
     height: 100px;
@@ -180,15 +179,4 @@ ul li {
  /* line strike */
  .underline ul li {
      text-decoration: line-through;
- }
-
- /* tips */
- .tips {
-     width: 100%;
-     background: blue;
-     color: white;
-     min-height: 30px;
-     position: absolute;
-     bottom: 0px;
-     font-size: 14px;
  }
