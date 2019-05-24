@@ -1,0 +1,194 @@
+body {
+    background: lightgray;
+}
+
+.container {
+    border: 1px solid black;
+    min-height: 90vh;
+    width: 20%;
+    margin: 2% 40%;
+    position: relative;
+    background: white;
+    box-shadow: 15px 15px 15px gray;
+}
+
+#taskify {
+    background: blue;
+    color: white;
+    font-family: cursive;
+    font-size: 40px;
+    text-align: center;
+    width: 100%;
+    height: 100px;
+}
+
+#taskify span {
+    position: relative;
+    top: 20px;
+}
+
+.postTask {
+    display: flex;
+    width: 100%;
+    height: 50px;
+    margin: 0px auto;
+    justify-content: center;
+    padding-left: 20px;
+    padding-top: 10px;
+    position: relative;
+    top: -25px;
+    outline: none;
+}
+
+.postTask input {
+    /*border: 2px solid green;*/
+    text-indent: 10px;
+    width: 200px;
+    height: 30px;
+    border-radius: 30px;
+    outline: none;
+    border: none;
+    box-shadow: 3px 3px 3px gray;
+}
+
+.add {
+    font-size: 30px;
+    font-weight: bolder;
+    height: 37px;
+    width: 37px;
+    text-align: center;
+    border-radius: 37px;
+    border: 2px solid yellow;
+    outline: none;
+    position: relative;
+    top: -2px;
+    left: -28px;
+    background: yellow;
+    box-shadow: 2px 2px 1px gray;
+    cursor: pointer;
+}
+
+/* todo */
+.todo-container {
+    width: 90%;
+    height: 180px;
+    margin: 0px auto;
+    /*border: 2px solid yellow;*/
+    margin-bottom: 20px;
+    position: relative;
+    top: -40px;
+}
+
+.complete-container {
+    width: 90%;
+    height: 180px;
+    margin: 0px auto;
+    /*border: 2px solid green;*/
+    margin-bottom: 40px;
+    position: relative;
+    top: -40px;
+}
+
+.todo {
+    background: red;
+    height: 30px;
+    padding-left: 10px;
+    color: white;
+    font-size: 20px;
+    position: relative;
+    top: 40px;
+}
+
+/* complete */
+.complete-cover {
+    background: green;
+    height: 30px;
+    padding-left: 10px;
+    color: white;
+    font-size: 20px;
+    position: relative;
+    top: 40px;
+}
+
+.todo #todoId {
+    position: relative;
+    top: 3px;
+}
+
+ul {
+    list-style: none;
+    overflow: scroll;
+    overflow-x: hidden;
+    height: 100px;
+    /*background: yellow;*/
+    margin-top: 50px;
+}
+
+.lists {
+    border: 1px solid gray;
+    margin: 0px 30px;
+    background: white;
+    box-shadow: 5px 5px 5px gray;
+}
+
+.lists ul {
+    padding-left: 0px;
+}
+
+ul li {
+    background: lightgray;
+    margin-bottom: 10px;
+    padding-left: 5px;
+    display: flex;
+}
+
+#taskItem {
+    width: 100%;
+}
+
+/* Icons */
+.icons {
+    display: flex;
+    position: relative;
+    top: 3px;
+}
+
+.complete {
+   width: 10px;
+   height: 10px;
+   background: green;
+   border-radius: 10px;
+   margin-right: 5px;
+}
+
+.delete {
+    width: 10px;
+    height: 10px;
+    background: red;
+    border-radius: 10px; 
+    margin-right: 5px;
+ }
+/* yellow reverse button */
+.reverse {
+    width: 10px;
+    height: 10px;
+    background: yellow;
+    border-radius: 10px;
+    margin-right: 5px;
+}
+
+ /* line strike */
+ .underline ul li {
+     text-decoration: line-through;
+ }
+
+ /* tips */
+ .tips {
+     width: 100%;
+     background: blue;
+     color: white;
+     min-height: 30px;
+     position: absolute;
+     bottom: 0px;
+     font-size: 14px;
+ }

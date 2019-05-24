@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Taskify</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+    <link rel="stylesheet" media="screen and (max-width: 900px)" href="mobile.css">
+    <script src="main.js"></script>
+</head>
+<body>
+    <!-- Card -->
+    <div class="container">
+        <!-- Herobar -->
+        <div id="taskify"> <span>Tas-kify </span> </div> 
+        <!-- Add Task -->
+        <div class="postTask"> 
+            <input placeholder="post your task..."/>
+            <button class="add"> <span id="plus">+</span> </button>
+        </div>
+
+        <!-- Todo & Completed-->
+        <div class="todo-container">
+            <div class="todo"> <span id="todoId"> todo: </span> </div>
+            <div class="lists"> 
+                <ul>
+                    <li> <span id="taskItem">Iron the car</span> 
+                    <div class="icons"> 
+                        <div class="complete"> <!-- complete-green --> </div>
+                        <div class="delete"> <!-- delete-red --> </div>
+                    </div>
+                    </li>
+                    <li> <span id="taskItem"> Wash the television </span> 
+                    <div class="icons"> 
+                        <div class="complete"> <!-- complete-green --> </div>
+                        <div class="delete"> <!-- delete-red --> </div>
+                    </div>
+                    </li>
+                    <li> <span id="taskItem"> Fix some bugs </span>
+                    <div class="icons"> 
+                        <div class="complete"> <!-- complete-green --> </div>
+                        <div class="delete"> <!-- delete-red --> </div>
+                    </div>
+                    </li>
+                    <li> <span id="taskItem"> Blend the shoe </span> 
+                    <div class="icons"> 
+                        <div class="complete"> <!-- complete-green --> </div>
+                        <div class="delete"> <!-- delete-red --> </div>
+                    </div>
+                    </li>
+                    <li> <span id="taskItem"> Fix some bugs </span>
+                        <div class="icons"> 
+                            <div class="complete"> <!-- complete-green --> </div>
+                            <div class="delete"> <!-- delete-red --> </div>
+                        </div>
+                        </li>
+                        <li> <span id="taskItem"> Blend the shoe </span> 
+                        <div class="icons"> 
+                            <div class="complete"> <!-- complete-green --> </div>
+                            <div class="delete"> <!-- delete-red --> </div>
+                        </div>
+                        </li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Completed -->
+        <div class="complete-container">
+                <div class="complete-cover"> <span id="todoId"> completed: </span> </div>
+                <div class="lists underline"> 
+                    <ul>
+                        <li> <span id="taskItem">Iron the car</span> 
+                        <div class="icons"> 
+                            <div class="reverse"> <!-- complete-green --> </div>
+                            <div class="delete"> <!-- delete-red --> </div>
+                        </div>
+                        </li>
+                        <li> <span id="taskItem"> Wash the television </span> 
+                        <div class="icons"> 
+                            <div class="reverse"> <!-- complete-green --> </div>
+                            <div class="delete"> <!-- delete-red --> </div>
+                        </div>
+                        </li>
+                        <li> <span id="taskItem"> Fix some bugs </span>
+                        <div class="icons"> 
+                            <div class="reverse"> <!-- complete-green --> </div>
+                            <div class="delete"> <!-- delete-red --> </div>
+                        </div>
+                        </li>
+                        <li> <span id="taskItem"> Blend the shoe </span> 
+                        <div class="icons"> 
+                            <div class="reverse"> <!-- complete-green --> </div>
+                            <div class="delete"> <!-- delete-red --> </div>
+                        </div>
+                        </li>
+                        <li> <span id="taskItem"> Fix some bugs </span>
+                            <div class="icons"> 
+                                <div class="reverse"> <!-- complete-green --> </div>
+                                <div class="delete"> <!-- delete-red --> </div>
+                            </div>
+                            </li>
+                            <li> <span id="taskItem"> Blend the shoe </span> 
+                            <div class="icons"> 
+                                <div class="reverse"> <!-- complete-green --> </div>
+                                <div class="delete"> <!-- delete-red --> </div>
+                            </div>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+    
+        <!--end-->
+        <!-- tips -->
+        <div class="tips">
+            Tips: Press 'green' to complete task, 'red' to delete
+            tasks & 'yellow' to undo completed task.
+        </div>
+    </div>
+</body>
+</html>
