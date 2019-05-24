@@ -1,5 +1,5 @@
 body {
-    background: lightgray;
+    background: white;
 }
 
 .container {
@@ -90,7 +90,7 @@ body {
 }
 
 .todo {
-    background: red;
+    background: #FF463F;
     height: 30px;
     padding-left: 10px;
     color: white;
@@ -101,7 +101,7 @@ body {
 
 /* complete */
 .complete-cover {
-    background: green;
+    background: #1AE870;
     height: 30px;
     padding-left: 10px;
     color: white;
